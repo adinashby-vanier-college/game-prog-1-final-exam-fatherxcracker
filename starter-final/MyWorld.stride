@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class name="MyWorld" extends="World" extends-java="World" enable="true" strideversion="1">
-    <javadoc xml:space="preserve"/>
+    <javadoc xml:space="preserve">This is the regular game screen</javadoc>
     <imports>
         <import target="java.util.*" enable="true"/>
         <import target="greenfoot.*" enable="true"/>

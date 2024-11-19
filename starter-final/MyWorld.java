@@ -4,7 +4,7 @@ import java.util.*;
 import greenfoot.*;
 
 /**
- * 
+ * This is the regular game screen
  */
 public class MyWorld extends World
 {
