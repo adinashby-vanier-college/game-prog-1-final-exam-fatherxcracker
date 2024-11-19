@@ -4,7 +4,7 @@ import java.util.*;
 import greenfoot.*;
 
 /**
- * 
+ * These are what can kill the ladybug
  */
 public class CannonBall extends Actor
 {
@@ -14,5 +14,46 @@ public class CannonBall extends Actor
      */
     public void act()
     {
+        collide();
+        
+        if (isGameOver()) {
+            transitionToGameIsOver();
+        }
+    }
+
+    /**
+     * When cannonball collides with ladybug, ladybug disappears
+     */
+    public void collide()
+    {
+        Actor ladybug = getOneIntersectingObject(Ladybug.class);
+        if (ladybug != null) {
+            World world = getWorld();
+            world.removeObject(ladybug);
+            Greenfoot.playSound("lose.wav");
+        }
+    }
+
+    /**
+     * If game screen changes or not
+     */
+    public boolean isGameOver()
+    {
+        World world = getWorld();
+        if (world.getObjects(Ladybug.class).isEmpty()) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+
+    /**
+     * This methods transitions to the losing screen
+     */
+    public void transitionToGameIsOver()
+    {
+        World gameIsOver =  new  GameOver();
+        Greenfoot.setWorld(gameIsOver);
     }
 }

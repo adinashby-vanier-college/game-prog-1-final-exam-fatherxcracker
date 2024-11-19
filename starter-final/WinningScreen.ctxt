@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=WinningScreen
+comment0.text=\r\n\ This\ is\ game\ won\ (winning)\ screen\r\n
+comment1.params=
+comment1.target=WinningScreen()
+comment1.text=\r\n\ Shows\ message\ that\ displays\ when\ user\ wins\ the\ game\ and\ plays\ winning\ sound.\r\n
+comment2.params=message\ x\ y
+comment2.target=void\ showTextWithBigBlackFont(java.lang.String,\ int,\ int)
+comment2.text=\r\n\ Sets\ the\ font,\ color\ and\ other\ details\ of\ the\ winning\ message.\r\n
+numComments=3

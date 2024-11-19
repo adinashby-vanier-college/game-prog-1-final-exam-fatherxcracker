@@ -1,7 +1,16 @@
 #BlueJ class context
 comment0.target=CannonBall
-comment0.text=\r\n\ \r\n
+comment0.text=\r\n\ These\ are\ what\ can\ kill\ the\ ladybug\r\n
 comment1.params=
 comment1.target=void\ act()
 comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ CannonBall\ wants\ to\ do.\ This\ method\ is\ called\ whenever\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
-numComments=2
+comment2.params=
+comment2.target=void\ collide()
+comment2.text=\r\n\ When\ cannonball\ collides\ with\ ladybug,\ ladybug\ disappears\r\n
+comment3.params=
+comment3.target=boolean\ isGameOver()
+comment3.text=\r\n\ If\ game\ screen\ changes\ or\ not\r\n
+comment4.params=
+comment4.target=void\ transitionToGameIsOver()
+comment4.text=\r\n\ This\ methods\ transitions\ to\ the\ losing\ screen\r\n
+numComments=5

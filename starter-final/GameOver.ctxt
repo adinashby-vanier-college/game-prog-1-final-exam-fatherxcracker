@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=GameOver
+comment0.text=\r\n\ This\ is\ the\ game\ over\ (losing)\ screen\r\n
+comment1.params=
+comment1.target=GameOver()
+comment1.text=\r\n\ Shows\ message\ that\ displays\ when\ user\ loses\ the\ game\ and\ plays\ losing\ sound.\r\n
+comment2.params=message\ x\ y
+comment2.target=void\ showTextWithBigWhiteFont(java.lang.String,\ int,\ int)
+comment2.text=\r\n\ Sets\ the\ font,\ color\ and\ other\ details\ of\ the\ losing\ message.\r\n
+numComments=3
